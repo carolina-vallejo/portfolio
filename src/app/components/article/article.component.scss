@@ -67,3 +67,30 @@
 .content {
   display: flex;
 }
+@media only screen and (max-width: $media-query-ipad) {
+  .links {
+    margin-top: 0;
+    margin-left: -5px;
+    float: none;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: $media-query-mobile) {
+  $image-height: 200px;
+  $margin: 20px;
+
+  :host {
+    padding: 20px;
+    padding-top: $image-height + $margin;
+    position: relative;
+    border-radius: 6px 6px 0 0;
+  }
+  .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: $image-height;
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+  }
+}

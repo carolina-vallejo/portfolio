@@ -79,7 +79,7 @@
   background-position: -36px 0;
 }
 
-@media only screen and (max-width: $media-query) {
+@media only screen and (max-width: $media-query-ipad) {
   .title {
     margin: 2vh 0;
   }
