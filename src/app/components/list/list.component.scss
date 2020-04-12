@@ -4,3 +4,9 @@
   display: block;
   margin-top: 6vh;
 }
+
+@media only screen and (max-width: $media-query) {
+  :host {
+    margin-top: 2vh;
+  }
+}

@@ -6,24 +6,6 @@
   padding: 33px;
   border-bottom-width: 2px;
   margin-bottom: 30px;
-  ::ng-deep {
-    a {
-      color: $highlight-color;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 0.8em;
-      font-weight: 700;
-      border: 1px solid rgba($highlight-color, 0.3);
-      padding: 7px;
-      border-radius: 5px;
-      line-height: 14px;
-
-      &:hover {
-        color: rgba($highlight-color, 0.5);
-        transition: all 200ms ease;
-      }
-    }
-  }
 }
 .meta {
   display: flex;
@@ -43,4 +25,45 @@
   line-height: 1.25;
   color: $black;
   margin-bottom: 20px;
+}
+
+.links {
+  margin-top: 14px;
+  float: right;
+}
+
+.link {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.75em;
+  font-weight: 700;
+  border: 1px solid rgba($highlight-color, 0.3);
+  padding: 7px;
+  border-radius: 5px;
+  line-height: 14px;
+  margin: 5px;
+  text-decoration: none;
+  color: $highlight-color;
+  text-transform: uppercase;
+  transition: all 200ms ease;
+  &:hover {
+    background: rgba($highlight-color, 0.1);
+  }
+}
+
+.image {
+  flex: 0 0 auto;
+  width: 40%;
+  // background: $highlight-color;
+  margin-right: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  border: 1px solid $gray-light;
+  border-radius: 6px;
+  min-height: 200px;
+}
+
+.content {
+  display: flex;
 }

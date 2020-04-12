@@ -14,7 +14,7 @@
 
   &:after {
     position: absolute;
-    bottom: 89px;
+    bottom: 49px;
     left: -20px;
     display: block;
     content: "";
@@ -77,4 +77,15 @@
 .vimeo {
   background-image: url("../../../assets/images/vimeo.svg");
   background-position: -36px 0;
+}
+
+@media only screen and (max-width: $media-query) {
+  .title {
+    margin: 2vh 0;
+  }
+
+  .logos {
+    margin-top: 2vh;
+    display: flex;
+  }
 }

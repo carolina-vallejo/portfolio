@@ -1,7 +1,9 @@
+@import "../assets/scss/variables.scss";
+
 :host {
   display: flex;
-  width: 95%;
-  max-width: 60em;
+  width: 90%;
+  max-width: 70em;
   margin: 0 auto;
 }
 
@@ -13,4 +15,20 @@ app-aside {
 
 app-list {
   padding: 1em 1em 1em 5em;
+}
+
+@media only screen and (max-width: $media-query) {
+  :host {
+    flex-wrap: wrap;
+  }
+  app-aside {
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  app-list {
+    width: 100%;
+    flex: 0 0 auto;
+    padding: 0;
+  }
 }

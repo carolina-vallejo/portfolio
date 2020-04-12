@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { Project } from "src/app/models/model";
+import { Project, STATUS } from "src/app/models/model";
 import { portfolioData } from "src/assets/data/data_portfolio";
 
 @Component({
@@ -13,7 +13,7 @@ export class ListComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    this.projects = portfolioData;
+    this.projects = portfolioData.filter((p) => p.status === STATUS.PUBLISHED);
     this.projects.reverse();
   }
 }

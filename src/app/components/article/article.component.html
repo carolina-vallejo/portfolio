@@ -1,3 +1,13 @@
+<div class="links">
+  <a
+    class="link"
+    *ngFor="let link of project.links"
+    [href]="link.href"
+    target="_blank"
+    >{{ link.title }}</a
+  >
+</div>
+
 <div class="meta">
   <div class="year">
     {{ project.year }}
@@ -9,6 +19,12 @@
 <div class="title" [innerHtml]="project.title"></div>
 
 <div class="content">
-  <div class="image"></div>
+  <div
+    class="image"
+    [ngStyle]="{
+      'background-image':
+        'url(' + '../../../assets/slides/' + project.key_image + '.jpg)'
+    }"
+  ></div>
   <div class="description" [innerHtml]="project.description"></div>
 </div>
