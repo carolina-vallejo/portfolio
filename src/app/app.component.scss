@@ -1,0 +1,16 @@
+:host {
+  display: flex;
+  width: 95%;
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+app-aside {
+  padding: 1em;
+  width: 20%;
+  flex: 0 0 auto;
+}
+
+app-list {
+  padding: 1em 1em 1em 5em;
+}

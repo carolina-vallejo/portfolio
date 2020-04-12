@@ -1,0 +1,80 @@
+@import "../../../assets/scss/variables.scss";
+
+:host {
+  display: block;
+}
+
+.name {
+  font-size: $title;
+  font-weight: 700;
+  line-height: 1.25;
+  color: $black;
+  margin: 6vh 0 2vh;
+  position: relative;
+
+  &:after {
+    position: absolute;
+    bottom: 89px;
+    left: -20px;
+    display: block;
+    content: "";
+    height: 4px;
+    width: 160px;
+    z-index: -1;
+    background: $highlight-color;
+  }
+}
+
+.title {
+  font-size: $sub-title;
+  line-height: 1.25;
+  margin-left: 20px;
+  margin: 6vh 0 2vh;
+  span {
+    color: $highlight-color;
+  }
+}
+.sentence {
+  color: $gray-bright;
+}
+
+.place {
+  margin: 2vh 0 0 0;
+  font-size: $text;
+}
+
+/*
+
+    SOCIALS
+*/
+.logos {
+  margin-top: 10vh;
+  margin-left: -6px;
+}
+.social {
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  cursor: pointer;
+  display: block;
+  transition: all 200ms ease;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.github {
+  background-image: url("../../../assets/images/github.svg");
+  background-position: -71px 0;
+}
+
+.linkedin {
+  background-image: url("../../../assets/images/linkedin.svg");
+}
+
+.vimeo {
+  background-image: url("../../../assets/images/vimeo.svg");
+  background-position: -36px 0;
+}

@@ -1,0 +1,14 @@
+<div class="meta">
+  <div class="year">
+    {{ project.year }}
+  </div>
+  <span class="separator">|</span>
+  <div class="category" [innerHtml]="project.category"></div>
+</div>
+
+<div class="title" [innerHtml]="project.title"></div>
+
+<div class="content">
+  <div class="image"></div>
+  <div class="description" [innerHtml]="project.description"></div>
+</div>
