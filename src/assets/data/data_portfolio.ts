@@ -1,6 +1,6 @@
 ﻿export const portfolioData = [
   {
-    key_image: "1_3",
+    key_image: "1_3.jpg",
     status: "published",
     category: "EXPERIMENTAL MULTIMEDIA",
     title: "Paint to music",
@@ -20,9 +20,9 @@
     ],
   },
   {
-    key_image: "27_1",
+    key_image: "27_1.jpg",
     status: "archived",
-    category: "CODE",
+    category: "WEB DEVELOPMENT",
     title: "Paper. Worpress theme for readers",
     year: "2016",
     spec: "Web design & Front-end development",
@@ -37,27 +37,9 @@
     ],
   },
   {
-    key_image: "29_1",
-    status: "published",
-    category: "CODE",
-    title: "BBVA Open Talent 2016",
-    year: "2016",
-    spec: "Front-end development & web animations",
-    description:
-      "Front-end development and web animations of the landing page for Open Talent 2016 of the BBVA Innovation Center<br><br>This project has been made for <i>MetricSalad Servicios y tecnologías de la información</i>",
-    color: "#4a4a4a",
-    links: [
-      {
-        title: "Website",
-        href:
-          "http://www.centrodeinnovacionbbva.com/en/opentalent/open-talent-2016",
-      },
-    ],
-  },
-  {
-    key_image: "30_1",
+    key_image: "30_1.jpg",
     status: "archived",
-    category: "CODE",
+    category: "WEB DEVELOPMENT",
     title: "Pathvizator",
     year: "2016",
     spec: "Data visualisation tool to create multiple circular charts",
@@ -76,9 +58,9 @@
     ],
   },
   {
-    key_image: "35_1",
+    key_image: "35_1.jpg",
     status: "published",
-    category: "CODE",
+    category: "WEB DEVELOPMENT",
     title: "Biomech Consulting",
     year: "2016",
     spec: "Front-end development",
@@ -93,25 +75,8 @@
     ],
   },
   {
-    key_image: "36_1",
-    status: "published",
-    category: "CODE",
-    title: "Pattern Recognition and Human Language Research Center - UPV",
-    year: "2016",
-    spec: "Web design & Front-end development",
-    description:
-      "Prototyping, Web design and Front-end development for the Pattern Recognition and Human Language Research Center of the University Politécnica de Valencia.",
-    color: "#4a4a4a",
-    links: [
-      {
-        title: "Website",
-        href: "https://www.prhlt.upv.es/wp/",
-      },
-    ],
-  },
-  {
-    key_image: "42_1",
-    category: "CODE",
+    key_image: "42_1.jpg",
+    category: "WEB DEVELOPMENT",
     status: "published",
     title: "AMBERG GROUP",
     year: "2017",
@@ -127,9 +92,9 @@
     ],
   },
   {
-    key_image: "45_1",
+    key_image: "45_1.jpg",
     status: "published",
-    category: "CODE",
+    category: "WEB DEVELOPMENT",
     title: "No Longer Empty, NY.",
     year: "2018",
     spec: "Front-end development",
@@ -144,7 +109,7 @@
     ],
   },
   {
-    key_image: "40_1",
+    key_image: "40_1.jpg",
     status: "published",
     category: "DATA VISUALIZATION",
     title: "Data visualisation for gender statistics",
@@ -161,6 +126,29 @@
       {
         title: "Github",
         href: "https://github.com/carolina-vallejo/gender_vizz",
+      },
+    ],
+  },
+  {
+    key_image: "itonics.webp",
+    status: "published",
+    category: "Software development",
+    title: "Lead Frontend Engineer | ITONICS GmbH",
+    year: "2018-2023",
+    spec: "Software development",
+    description: `In ITONICS GmbH I work as a Lead frontend engineer helping to build innovation management software. I have different roles and responsibilities.
+    <br><br>
+      One of the most crucial role is Team Lead. I use Scrum Methodologies to coordinate a team of developers, QA engineers and designers. I perform code reviews, write technical specifications and also do the planning in coordination with product owners and other technical leads. I am also taking part in the training and mentorship of junior developers.
+      <br><br>
+      My second role is Frontend Developer. I implement frontend features with Angular, Typescript, SASS, HTML. I work closely with backend engineers integrating REST APIs and GraphQL. I am familiar with Elastic Search, DynamoDB and PostgreSQL.
+      <br><br>
+      I am also specialised in implementing interactive data visualisations with D3.js + Angular.
+    `,
+    color: "#4a4a4a",
+    links: [
+      {
+        title: "Website",
+        href: "https://www.itonics-innovation.de/produkt",
       },
     ],
   },

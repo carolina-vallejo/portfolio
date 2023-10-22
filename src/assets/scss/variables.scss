@@ -1,7 +1,7 @@
 /*
     Colors
 */
-$highlight-color: #3880ff;
+$highlight-color: #0094ff;
 $gray: #5b708b;
 $gray-bright: rgba($gray, 0.5);
 $gray-light: #dce5ef;
@@ -21,3 +21,13 @@ $labelFont: "Roboto Mono";
 */
 $media-query-ipad: 900px;
 $media-query-mobile: 600px;
+
+/*
+    Spacing
+*/
+$spacer: 4px;
+
+/*
+    Globals
+*/
+$margin-top: 60px;

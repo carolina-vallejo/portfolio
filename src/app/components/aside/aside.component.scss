@@ -4,36 +4,48 @@
   display: block;
 }
 
+.brand {
+  margin: $margin-top 0 $spacer * 9;
+  padding: $spacer * 2 0;
+  position: relative;
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 110%;
+    height: 110%;
+    background: $highlight-color;
+    z-index: -1;
+  }
+}
+
 .name {
   font-size: $title;
   font-weight: 700;
-  line-height: 1.25;
-  color: $black;
-  margin: 6vh 0 2vh;
-  position: relative;
-
-  &:after {
-    position: absolute;
-    bottom: 49px;
-    left: -20px;
-    display: block;
-    content: "";
-    height: 4px;
-    width: 160px;
-    z-index: -1;
-    background: $highlight-color;
-  }
+  line-height: 1;
+  color: white;
 }
 
 .title {
+  color: white;
   font-size: $sub-title;
   line-height: 1.25;
-  margin-left: 20px;
-  margin: 6vh 0 2vh;
-  span {
-    color: $highlight-color;
-  }
+  margin: $spacer * 3 0;
 }
+
+$line-height: 4px;
+.line {
+  display: block;
+  content: "";
+  width: 40px;
+  height: $line-height;
+  border-radius: $line-height;
+  background: white;
+  margin-bottom: $spacer * 9;
+}
+
 .sentence {
   color: $gray-bright;
 }
